@@ -1,12 +1,12 @@
-function SomarDoisNumeros (valor1, valor2 ){
+function somarDoisNumeros (valor1, valor2 ){
     const resultado = valor1 + valor2;
     return resultado; 
 
 }
     
 
-function CalcularMediaDeDoisNumeros (valor1,valor2){
-     const resultadoDaSomaDeDoisValores = SomarDoisNumeros ( valor1, valor2);
+function calcularMediaDeDoisNumeros (valor1,valor2){
+     const resultadoDaSomaDeDoisValores = somarDoisNumeros ( valor1, valor2);
      const resultadoDaMediaDeDoisValores = resultadoDaSomaDeDoisValores / 2;
      return resultadoDaMediaDeDoisValores; 
 
@@ -14,6 +14,6 @@ function CalcularMediaDeDoisNumeros (valor1,valor2){
 }
 
 module.exports = {
-    SomarDoisNumeros
+    somarDoisNumeros
 }
 
